@@ -81,19 +81,19 @@ Key takeaways:
 ## Dashboard Highlights
 
 ### Market Density Map
-![Market Density Map](path/to/map_density.png)  
+![Market Density Map](Dashboard/map_density.png)  
 *Shows concentration of gyms by area and rating tier.*
 
 ### Quality vs Engagement Scatter
-![Quality vs Engagement Scatter](path/to/scatter_quality_vs_engagement.png)  
+![Quality vs Engagement Scatter](Dashboard/scatter_quality_vs_engagement.png)  
 *Highlights Unionville Athletic Club relative to competitors.*
 
 ### Gyms by Rating Tier per Area
-![Rating Tier Bar Chart](path/to/tier_bar_chart.png)  
+![Rating Tier Bar Chart](Dashboard/tier_bar_chart.png)  
 *Displays composition of High, Mid, and Low tier gyms across areas.*
 
 ### Top Competitors by Review Volume
-![Top Competitors Bar Chart](path/to/top5_bar_chart.png)  
+![Top Competitors Bar Chart](Dashboard/top5_bar_chart.png)  
 *Identifies the gyms with highest visibility in terms of review count.*
 
 ---
