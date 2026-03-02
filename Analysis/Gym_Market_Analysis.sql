@@ -1,4 +1,6 @@
--- Gyms table
+﻿-- ==========================================
+-- 1️ Gyms Table Creation
+-- ==========================================
 CREATE TABLE gyms (
     id INT IDENTITY(1,1) PRIMARY KEY,
     place_id NVARCHAR(255) UNIQUE NOT NULL,
@@ -11,22 +13,28 @@ CREATE TABLE gyms (
     created_at DATETIME DEFAULT GETDATE()
 );
 
+-- ==========================================
+-- 2️ Quick Summary of All Gyms
+-- ==========================================
 SELECT 
-	COUNT(*) as total_gyms,
-	AVG(rating) as avg_rating,
-	AVG(review_count) as avg_reviews
-FROM
-	gyms;
+    COUNT(*) AS total_gyms,
+    AVG(rating) AS avg_rating,
+    AVG(review_count) AS avg_reviews
+FROM gyms;
 
+-- ==========================================
+-- 3️ Top 10 Gyms by Review Count
+-- ==========================================
 SELECT TOP 10
-	name,
-	rating,
-	review_count
-FROM
-	gyms
-ORDER BY
-	review_count DESC;
+    name,
+    rating,
+    review_count
+FROM gyms
+ORDER BY review_count DESC;
 
+-- ==========================================
+-- 4️ Add Area Column for Target Geography
+-- ==========================================
 ALTER TABLE gyms
 ADD area NVARCHAR(100);
 
@@ -39,41 +47,44 @@ SET area =
         ELSE 'Other'
     END;
 
--- Remove gyms outside of target radius
-DELETE FROM gyms WHERE area = 'Other';
+-- ==========================================
+-- 5️ Remove Gyms Outside Target Areas
+-- ==========================================
+DELETE FROM gyms 
+WHERE area = 'Other';
 
+-- ==========================================
+-- 6️ Summary Stats by Area
+-- ==========================================
 SELECT 
-	area,
-	COUNT(*) as gym_count,
-	AVG(rating) as avg_rating,
-	AVG(review_count) as avg_reviews
-FROM
-	gyms
-GROUP BY
-	area
-ORDER BY
-	gym_count DESC;
+    area,
+    COUNT(*) AS gym_count,
+    AVG(rating) AS avg_rating,
+    AVG(review_count) AS avg_reviews
+FROM gyms
+GROUP BY area
+ORDER BY gym_count DESC;
 
--- Remove gyms with no google reviews/ratings
+-- ==========================================
+-- 7️ Remove Gyms with No Reviews or Ratings
+-- ==========================================
 DELETE
-FROM
-	gyms
-WHERE
-	review_count <= 0
-	OR rating <= 0;
+FROM gyms
+WHERE review_count <= 0
+   OR rating <= 0;
 
--- Multiple facilities that are outside our competitive scope (ie. yoga studios, martial arts)
--- ONLY Include: Commerical Gyms, Strength & Conditioning Facilities, Cross Fit Gyms, Personal Training Studios
-
--- Inspect
+-- ==========================================
+-- 8️ Remove Non-Competitive Facilities
+-- Only keep: Commercial Gyms, Strength & Conditioning, CrossFit, Personal Training
+-- ==========================================
+-- Inspect remaining names and areas
 SELECT 
-	name, 
-	area
-FROM 
-	gyms
-ORDER BY 
-	name;
+    name, 
+    area
+FROM gyms
+ORDER BY name;
 
+-- Delete non-gym/irrelevant facilities
 DELETE FROM gyms
 WHERE LOWER(name) LIKE '%yoga%'
    OR LOWER(name) LIKE '%pilates%'
@@ -87,30 +98,34 @@ WHERE LOWER(name) LIKE '%yoga%'
    OR LOWER(name) LIKE '%dance%'
    OR LOWER(name) LIKE '%boulder%';
 
-
+-- ==========================================
+-- 9️ Create Rating Tier Summary by Area
+-- ==========================================
 SELECT
     area,
     CASE 
         WHEN rating >= 4.5 THEN 'High Tier (4.5+)'
-        WHEN rating >= 4.0 THEN 'Mid Tier (4.0�4.49)'
+        WHEN rating >= 4.0 THEN 'Mid Tier (4.0–4.49)'
         WHEN rating IS NULL THEN 'No Rating'
         ELSE 'Low Tier (<4.0)'
     END AS rating_tier,
     COUNT(*) AS gym_count
-FROM 
-	gyms
+FROM gyms
 GROUP BY 
-	area,
+    area,
     CASE 
         WHEN rating >= 4.5 THEN 'High Tier (4.5+)'
-        WHEN rating >= 4.0 THEN 'Mid Tier (4.0�4.49)'
+        WHEN rating >= 4.0 THEN 'Mid Tier (4.0–4.49)'
         WHEN rating IS NULL THEN 'No Rating'
         ELSE 'Low Tier (<4.0)'
     END
 ORDER BY 
-	area, 
-	rating_tier;
+    area, 
+    rating_tier;
 
+-- ==========================================
+-- 10️ Create View for Clean Analysis
+-- ==========================================
 CREATE VIEW vw_gyms_analysis AS
 SELECT
     place_id,
@@ -123,10 +138,13 @@ SELECT
     area,
     CASE 
         WHEN rating >= 4.5 THEN 'High Tier (4.5+)'
-        WHEN rating >= 4.0 THEN 'Mid Tier (4.0�4.49)'
+        WHEN rating >= 4.0 THEN 'Mid Tier (4.0–4.49)'
         WHEN rating < 4.0 THEN 'Low Tier (<4.0)'
         ELSE NULL
     END AS rating_tier
 FROM gyms;
 
+-- ==========================================
+-- 11️⃣ Inspect View
+-- ==========================================
 SELECT * FROM vw_gyms_analysis;

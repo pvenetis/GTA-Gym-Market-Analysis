@@ -1,0 +1,56 @@
+id,place_id,name,rating,review_count,latitude,longitude,address,created_at,area
+21,ChIJswjIugXV1IkREVFWCQqEj64,Cowboy Fitness Markham,4.7,60,43.871059,-79.3431316,"50 Lockridge Ave, Markham, ON L3R, Canada",2/26/2026,Markham
+22,ChIJB0IFcR3V1IkR5M2SYbXWg5Q,Oasis Fitness,5,421,43.8370514,-79.3205575,"7550 Birchmount Rd unit 105, Markham, ON L3R 6C6, Canada",2/26/2026,Markham
+23,ChIJk-8qb8rV1IkRUY3YfkatlwY,OXYGEN Fitness Club,4.9,253,43.834381,-79.3550921,"7880 Woodbine Ave, Markham, ON L3R 2N7, Canada",2/26/2026,Markham
+24,ChIJCW6l8HLW1IkRBwss57MIHpU,Markville Fitness,4.4,236,43.8751144,-79.2810897,"190 Bullock Dr, Markham, ON L3P 7N3, Canada",2/26/2026,Markham
+25,ChIJGfke-vzV1IkRgEW4U3woSfI,"The Markham Gym - Personal Training, Massage Therapy, Functional Fitness",4.8,190,43.8753746,-79.2783435,"166 bullock drive, Units 6 & 7, Markham, ON L3P 1W2, Canada",2/26/2026,Markham
+26,ChIJsxyc41fU1IkREQJeObFdRP8,Unionville Athletic Club,4.3,255,43.854091,-79.33419,"8500 Warden Ave., Markham, ON L6G 1A5, Canada",2/26/2026,Markham
+27,ChIJJWhYe8Ip1YkRUB2lHSnokJE,Iron Fitness Strength Club,4.8,149,43.9055482,-79.26656,"9833 Markham Rd, Markham, ON L6E 0E5, Canada",2/26/2026,Markham
+28,ChIJHYsAIOrU1IkRVu8ux9gIn_c,LA Fitness,3.9,1568,43.8511386,-79.3565881,"8555 Woodbine Ave, Markham, ON L3R 4X9, Canada",2/26/2026,Markham
+29,ChIJH_38MlvU1IkR8mDX2-VDmh0,GoodLife Fitness Markham Birchmount and Enterprise,4.1,842,43.84918,-79.32332,"169 Enterprise Blvd, Markham, ON L6G 0E7, Canada",2/26/2026,Markham
+30,ChIJreaJS8DU1IkRmMAZ5io8RXA,Fit4Less,3.9,660,43.847886,-79.359842,"71 Cochrane Dr, Markham, ON L3R 9S1, Canada",2/26/2026,Markham
+31,ChIJt42UpP3T1IkRc_8JHS9Sp24,FITting Room Fitness Studio,5,210,43.8214285,-79.3306166,"351 Ferrier St Unit 7, Markham, ON L3R 2Z5, Canada",2/26/2026,Markham
+32,ChIJWUWlrlDT1IkR7xIr7n_PEFg,Snap Fitness Markham,4.7,265,43.8193538,-79.3421571,"7261 Victoria Park Ave, Markham, ON L3R 2M7, Canada",2/26/2026,Markham
+33,ChIJR3v-L-vT1IkRZtZcdZUHfsc,Fitness Element,4.9,118,43.8212818,-79.3344097,"500 Esna Park Dr Unit 6, Markham, ON L3R 1H5, Canada",2/26/2026,Markham
+34,ChIJUR2cPwjW1IkRDLW40d-8_e4,Anytime Fitness,3.9,188,43.8927377,-79.2931428,"9580 McCowan Rd, Markham, ON L3P 8M1, Canada",2/26/2026,Markham
+35,ChIJd5r5FnTW1IkRez6T8PaDxpE,GoodLife Fitness Markham McCowan and Bullock,3.9,382,43.874315,-79.284773,"200 Bullock Dr, Markham, ON L3P 4J7, Canada",2/26/2026,Markham
+36,ChIJ1R3ZBTfU1IkRylBadrQ8fhQ,Markham YMCA,4.2,679,43.852396,-79.3108382,"101 YMCA Blvd, Markham, ON L6G 0A1, Canada",2/26/2026,Markham
+37,ChIJsXklsTbU1IkROkiuU4_gqMU,Markham Pan Am Centre,4.6,1593,43.8550789,-79.3089309,"16 Main St Unionville, Markham, ON L3R 0W7, Canada",2/26/2026,Markham
+38,ChIJbzd3NhzV1IkRAvy1NIZ92jU,F45 Training Markham,4.9,233,43.8512466,-79.3538996,"3150 Hwy 7 Unit 5a, Markham, ON L3R 5A1, Canada",2/26/2026,Markham
+39,ChIJXfe3frnX1IkRFbo0E_toZXI,Anytime Fitness Boxgrove,4.2,218,43.8670134,-79.2309039,"72 Copper Creek Dr, Markham, ON L6B 0P2, Canada",2/26/2026,Markham
+40,ChIJNaH-_3nW1IkRYBv61qEVfuY,GoodLife Fitness For Women,3.9,614,43.8680304,-79.2883436,"Markville Shopping Centre, 5000 Hwy 7, Markham, ON L3R 4M9, Canada",2/26/2026,Markham
+55,ChIJ87IMn5_V1IkRfdoBfvx4Y6M,Can Sports Center,4,266,43.8336114,-79.3153916,"1443 Denison St, Markham, ON L3R 5V2, Canada",2/26/2026,Markham
+58,ChIJ2em5LoDU1IkRrG_k33qYgiw,Mayfair Clubs - East,3,36,43.8260635,-79.3375948,"160 Esna Park Dr, Markham, ON L3R 1E3, Canada",2/26/2026,Markham
+62,ChIJ829hWH_U1IkRNhlUdoE5c2s,Reformfit Markham,4,65,43.8240694,-79.3302727,"85 Ferrier St Unit 3, Markham, ON L3R 2Y9, Canada",2/26/2026,Markham
+63,ChIJxS_w-0orK4gRWq55tu7kjn8,Parkway Fitness & Racquet Club,3,80,43.8464575,-79.3815563,"9009 Leslie St, Richmond Hill, ON L4B 4J8, Canada",2/26/2026,Richmond Hill
+65,ChIJmwNTNKQqK4gRfD2YxXqJVR4,Orangetheory Fitness - Elgin Mills,4,236,43.9002427,-79.3946141,"10775 Leslie St Unit 405, Richmond Hill, ON L4S 0B2, Canada",2/26/2026,Richmond Hill
+71,ChIJrbkr1AfU1IkRUGYrJRrhpvs,Planet Fitness,4,1091,43.82368,-79.30131,"4711 Steeles Ave E, Scarborough, ON M1V 4S5, Canada",2/26/2026,Scarborough
+72,ChIJ36QL4LvT1IkRKyr0qn9P1nE,Fit4Less,3,672,43.7996856,-79.3189909,"2900 Warden Ave., Scarborough, ON M1W 2S8, Canada",2/26/2026,Scarborough
+73,ChIJaWCnUGTT1IkRmzE_C12TFhw,Mayfair Clubs - Parkway (Markham),4,280,43.8206032,-79.3491959,"50 Steelcase Rd E, Markham, ON L3R 1E8, Canada",2/26/2026,Markham
+74,ChIJueIYXvzT1IkRfjajgcKHJQE,L'Amoreaux Community Recreation Centre,4,348,43.8119466,-79.3048644,"2000 McNicoll Ave, Scarborough, ON M1V 5M2, Canada",2/26/2026,Scarborough
+78,ChIJ4V4tNnvT1IkRBfqHvcao-yQ,Fight Fitness,4,449,43.8195829,-79.3458076,"50 Torbay Rd, Markham, ON L3R 1G6, Canada",2/26/2026,Markham
+80,ChIJhSj7cDwrK4gRxbU0kST4n3Y,Ed Sackfield Arena & Fitness Centre,4.5,349,43.855906,-79.397721,"311 Valleymede Dr, Richmond Hill, ON L4B 2E1, Canada",2/26/2026,Richmond Hill
+81,ChIJVVVVxaIrK4gRtp93mH9_VhY,GoodLife Fitness Richmond Hill Hillcrest Mall,4,539,43.8558137,-79.4369979,"9350 Yonge St, Richmond Hill, ON L4C 5G2, Canada",2/26/2026,Richmond Hill
+83,ChIJjxow0DErK4gRBhZzYA9akbM,Body Vision Fitness Inc,4.4,381,43.8547296,-79.4300978,"9325 Yonge St Unit 32, Richmond Hill, ON L4C 1A8, Canada",2/26/2026,Richmond Hill
+84,ChIJnz0gQQErK4gRXjzkW4C6gjk,Empire Fitness,4.8,289,43.8992701,-79.4458457,"11160 Yonge St B1, Richmond Hill, ON L4C 0J6, Canada",2/26/2026,Richmond Hill
+85,ChIJiwb_1kMqK4gR7Y4ae7_I67k,Anytime Fitness,4.6,253,43.8887505,-79.442012,"10720 Yonge St, Richmond Hill, ON L4C 3C9, Canada",2/26/2026,Richmond Hill
+87,ChIJBauU8l0qK4gRQDA4Pwx9rSc,Fitness Connection,3.8,330,43.889747,-79.4336167,"354 Newkirk Rd, Richmond Hill, ON L4C 3G7, Canada",2/26/2026,Richmond Hill
+89,ChIJrzPsk8QqK4gRmtjlIX1xdzQ,Snap Fitness Richmond Hill,4.6,179,43.8799361,-79.3960303,"1380 Major Mackenzie Dr E, Richmond Hill, ON L4S 0A1, Canada",2/26/2026,Richmond Hill
+92,ChIJZaNlGhwrK4gRdejIuC3e_ms,F45 Training Richmond Hill Central,5,78,43.8851115,-79.4666091,"10815 Bathurst St, Richmond Hill, ON L4C 9Y2, Canada",2/26/2026,Richmond Hill
+97,ChIJ6Wk0AK4rK4gRADor_f_uFog,Up & Fit Fitness,4.8,40,43.8639701,-79.3853454,"1550 16th Ave Unit A-11, Richmond Hill, ON L4B 3K9, Canada",2/26/2026,Richmond Hill
+98,ChIJ5_Gbs88rK4gR6ikyFyDTLNU,Rise Training Club,5,75,43.8795838,-79.426045,"57 Newkirk Rd Unit 1, Richmond Hill, ON L4C 3G4, Canada",2/26/2026,Richmond Hill
+99,ChIJ9WfmSYMrK4gRsjmJ3xp74r4,Cheriki Academy,5,93,43.8781971,-79.4394898,"10288 Yonge St, Richmond Hill, ON L4C 3B8, Canada",2/26/2026,Richmond Hill
+100,ChIJ4-HF1rfQ1IkR75_j4Ka98Xs,Planet Fitness,3.9,960,43.80739,-79.22034,"31 Tapscott Rd, Scarborough, ON M1B 4Y7, Canada",2/26/2026,Scarborough
+101,ChIJ8WzYKq_R1IkRqNY7HOB8XlE,Scarborough YMCA,3.5,264,43.7746276,-79.2543661,"230 Town Centre Court, Scarborough, ON M1P 4Y7, Canada",2/26/2026,Scarborough
+102,ChIJQ8tHQgDR1IkRNKKYUG853LQ,Fit4Less,3.8,207,43.758048,-79.228781,"3495 Lawrence Ave E, Scarborough, ON M1H 1B2, Canada",2/26/2026,Scarborough
+103,ChIJHVY8pQna1IkRp0t662PxV7Q,Fit4Less,3.8,547,43.799249,-79.1977264,"855 Milner Ave, Scarborough, ON M1B 5N6, Canada",2/26/2026,Scarborough
+104,ChIJfXH1y4Pb1IkRfP6C-4mTEeE,Fit4Less,4.1,507,43.770747,-79.184041,"4525 Kingston Rd, Scarborough, ON M1E 2P1, Canada",2/26/2026,Scarborough
+106,ChIJS6_S8gXR1IkRLmJagBfDDBU,World Gym,3.7,911,43.7845183,-79.255439,"1455 McCowan Rd, Scarborough, ON M1S 5K7, Canada",2/26/2026,Scarborough
+107,ChIJVUaVQqrR1IkRbNd5km8iNxQ,Bazooka Kickboxing & MMA,4.9,200,43.7774026,-79.2487276,"680 Progress Ave #1, Scarborough, ON M1H 3A5, Canada",2/26/2026,Scarborough
+109,ChIJPzX3tFXQ1IkRIfWhCVo4rJU,"Lu Strength & Therapy - Physiotherapy Services, Sports Massage Therapy & Chiropractic Services",5,610,43.7781715,-79.2424354,"1149 Bellamy Rd N, Scarborough, ON M1H 1H7, Canada",2/26/2026,Scarborough
+110,ChIJJSRjfeHR1IkR_aE8ueHSe-A,F45 Training Guildwood,4.9,158,43.7469968,-79.2079747,"3775 Kingston Rd, Scarborough, ON M1J 3H4, Canada",2/26/2026,Scarborough
+111,ChIJj3R69wPR1IkRQGMHovcktCg,Strength-N-U Fitness & Therapy,4.8,596,43.7861682,-79.2557534,"10 Milner Ave, Scarborough, ON M1S 3P8, Canada",2/26/2026,Scarborough
+112,ChIJaf-U8Rjb1IkRprmhlkBTJwY,Club 1 Studios,4.7,178,43.765869,-79.1672353,"510 Coronation Dr Unit 26, Scarborough, ON M1E 4X6, Canada",2/26/2026,Scarborough
+114,ChIJPe5HmarR1IkRfF-L2_CwtQ8,CrossFit Canuck,4.6,72,43.7788009,-79.2457122,"721 Progress Ave, Scarborough, ON M1H 2W7, Canada",2/26/2026,Scarborough
+115,ChIJBZDO9QDb1IkRkhcxhPHH9uk,Highland Fitness and Wellness,5,78,43.7836877,-79.1703854,"364 Old Kingston Rd, Scarborough, ON M1C 1B6, Canada",2/26/2026,Scarborough
+117,ChIJbX8P1avR1IkRPjNlm3XI4Kw,Body Form,4.8,27,43.7763617,-79.2500458,"111 Grangeway Ave #403, Scarborough, ON M1H 3E9, Canada",2/26/2026,Scarborough
