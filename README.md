@@ -123,6 +123,6 @@ This dashboard and analysis provide a **professional, client-ready view of the G
 ## Repository Contents
 
 - **Dashboard/** – Power BI file and screenshots  
-- **Report/** – Figures and markdown write-up  
-- **Data/** – Cleaned and raw data (public)  
-- **Notebooks/** – Python analysis scripts (optional)
+- **README/** – Project Report
+- **Data/** – Cleaned pulled API data (public)  
+- **Analysis/** – Python analysis scripts + SQL Analysis
